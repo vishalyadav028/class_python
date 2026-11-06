@@ -280,14 +280,110 @@
 # ----------5. Loops (5 Questions)-----------
 # Question 5.1
 # 1 se 10 tak numbers print karo.
+
 # for num in range(1,11):
 #     print(num)
 
-i = 1
-while(i<=10):
-    print(i)
-    i+=i
+
+# i = 1
+# while(i<=10):
+#     print(i)
+#     i+=1
     
+# Question 5.2 
+# 10 se 1 tak reverse counting print karo.
+
+# for i in range(10,0,-1):
+#     print(i)
+
+
+# i = 10
+# while(i >= 1):
+#     print(i)
+#     i -= 1
+
+
+# Question 5.3 
+# 1 se 100 tak even numbers print karo.
+
+# for i in range(2,101,2):
+#     print(i)
+
+# i = 2
+# while(i<=100):
+#     print(i)
+#     i += 2
+
+
+
+# Question 5.4
+# 1 se 10 tak numbers ka sum nikalo.
+# total = 0
+# for i in range(1,11):
+#     total += i
+#     print(total)
+
+# total = 0
+# i = 1
+# while(i <= 10):
+#     total += i
+#     print(total)
+#     i += 1
+
+
+
+# Question 5.5
+# User se n lo aur uska multiplication table print karo.
+
+# n = int(input("Enter The Number:"))
+# for i in range(n,11,1):
+#     print(n,"=",i,"x",i*n)
+
+# n = int(input("Enter The Number:"))
+
+# i = 1
+# while(i <= 10):
+#     print(n,"=",i,"x",i*n)
+#     i += 1
+
+
+
+#  ---------- Pattern Printing (5 Questions)-----------
+# Question 6.1 
+# Right Triangle Pattern Print Pattern:
+# *
+# ** 
+# *** 
+# **** 
+# ***** 
+
+# for i in range(1,6):
+#     print("*"*i)
+
+# n = int(input("enter the star no:"))
+# i = 1
+# while(i <= n):
+#     print("*"*i)
+#     i+=1
+
+
+
+# Question 6.2
+# Inverted Triangle Pattern Print Pattern: 
+# ***** 
+# **** 
+# *** 
+# ** 
+# * 
+
+# for i in range(5,0,-1):
+#     print("*"*i)
+
+# n = int(input("enter star no: "))
+# i = n
+# while(i>=0):
+#     print("*"*i)
+#     i -= 1
 
 
 
@@ -295,10 +391,42 @@ while(i<=10):
 
 
 
-#  ----------Conditional Statements (5 Questions)-----------
+#  ----------7. Array / List (5 Questions)-----------
+# Question 7.1 
+# [10, 20, 30, 40, 50] list/array banao aur saare elements print karo.
+
+# list = [10, 20, 30, 40, 50]
+
+# for i in list:
+#     print(i)
 
 
-#  ----------Conditional Statements (5 Questions)-----------
+# i = 0
+# while(i < len(list)):
+#     print(list[i])
+#     i+=1
+
+
+
+# Question 7.2 
+# List/Array ke saare elements ka sum loop se nikalo.
+
+# a = [5,2,2,1,5]
+# i = 0
+# total = 0
+# while(i < len(a)):
+#     total += a[i]
+#     i += 1
+#     print(total)
+
+
+
+
+
+
+# Question 7.3 
+# List/Array mein sabse bada number (Maximum) find karo.
+
 
 #  ----------Conditional Statements (5 Questions)-----------
 
