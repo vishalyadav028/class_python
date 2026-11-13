@@ -1,3 +1,0 @@
-live score= 500
-total scor= 250
-win score= 400
